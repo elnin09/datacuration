@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ELEMENT root (intro ,personal_info,early_career, club_career*, international_career, style_of_play, personal_life, career_statistics, honours*)>
+
+<!ELEMENT intro (#PCDATA)>
+<!ATTLIST intro name CDATA #REQUIRED>
+<!ATTLIST intro position (Goalkeeper|Defender|Midfielder|Striker|Forward) #REQUIRED>
+<!ATTLIST intro country CDATA #REQUIRED>
+
+
+<!ELEMENT personal_info (fullname,dateofbirth,placeofbirth,statistics*)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT dateofbirth (#PCDATA)>
+<!ELEMENT placeofbirth (#PCDATA)>
+<!ELEMENT statistics (year,team,apps,goals)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT apps (#PCDATA)>
+<!ELEMENT goals (#PCDATA)>
+
+
+<!ELEMENT early_career (#PCDATA)>
+<!ELEMENT club_career (#PCDATA)>
+<!ATTLIST club_career team CDATA #REQUIRED>
+<!ATTLIST club_career season CDATA #IMPLIED>
+
+
+
+
+<!ELEMENT international_career (#PCDATA)>
+
+<!ELEMENT style_of_play (#PCDATA)>
+
+<!ELEMENT personal_life (#PCDATA)>
+
+<!ELEMENT career_statistics (statistics*)>
+
+<!ELEMENT honours (honour)>
+
+<!ELEMENT honour (#PCDATA)>
+<!ATTLIST honour team CDATA #IMPLIED>
+<!ATTLIST honour awardtype (team|individual|decorations) #REQUIRED>    
+]>
+
+
+
+<root>
+<intro name="Fernando Torres" position = "Striker" country = "Spain">
+	Fernando José Torres Sanz (Spanish pronunciation: [feɾˈnando ˈtores]; born 20 March 1984) is a Spanish former professional footballer who played as a striker.
+
+Torres started his career with Atlético Madrid, progressing through their youth system to the first-team squad. He made his first-team debut in 2001 and finished his time at the club with 75 goals in 174 La Liga appearances. Prior to his La Liga debut, Torres played two seasons in the Segunda División for Atlético, making 40 appearances and scoring seven goals.
+
+Torres joined Premier League club Liverpool in 2007, after signing for a club record transfer fee. He marked his first season at Anfield by being Liverpool's first player since Robbie Fowler in the 1995–96 season to score more than 20 league goals in a season. The most prolific goalscoring spell of his career, he became the fastest player in Liverpool history to score 50 league goals. He was named in the FIFA World XI in 2008 and 2009. Torres left the club in January 2011 to join Chelsea for a British record transfer fee of £50 million, which made him the most expensive Spanish player in history. In his first full season at Chelsea, Torres won the FA Cup and the UEFA Champions League. The following season, he scored in the final of the 2012–13 UEFA Europa League, helping Chelsea to win the competition for the first time.
+
+Torres is a Spanish international and made his debut against Portugal in 2003. He has been capped over 100 times and is his country's third-highest goalscorer of all-time. With Spain, he has participated in six major tournaments: UEFA Euro 2004, the 2006 FIFA World Cup, Euro 2008, the 2010 World Cup, Euro 2012, and the 2014 World Cup. Spain won the three tournaments from 2008 to 2012, with Torres scoring in the finals of both Euro 2008 and Euro 2012. He scored the winning goal in the 2008 European Championship, and won the Golden Boot for highest goalscorer in 2012.
+</intro>
+
+<personal_info>
+	<fullname>	Fernando José Torres Sanz</fullname>
+	<dateofbirth>20 March 1984</dateofbirth>
+	<placeofbirth>Fuenlabrada,Spain </placeofbirth>
+	<statistics>
+		<year>2001–2007</year><team>Atlético Madrid</team><apps>214</apps><goals>82</goals>
+	</statistics>
+	<statistics>
+		<year>2007-2011</year><team>Liverpool</team><apps>102</apps><goals>65</goals>
+	</statistics>
+	<statistics>
+		<year>2011-2015</year><team>Chelsea</team><apps>110</apps><goals>20</goals>
+	</statistics>
+	<statistics>
+		<year>2014-2015</year><team>AC Milan</team><apps>10</apps><goals>1</goals>
+	</statistics>
+	<statistics>
+		<year>2015-2016</year><team>Atlético Madrid</team><apps>49</apps><goals>14</goals>
+	</statistics>
+	<statistics>
+		<year>2016-2018</year><team>Atlético Madrid</team><apps>58</apps><goals>13</goals>
+	</statistics>
+	<statistics>	
+		<year>2018-2019</year><team>Sagan Tosu</team><apps>35</apps><goals>5</goals>
+	</statistics>
+	<statistics>	
+		<year>2003-2014</year><team>Spain</team><apps>110</apps><goals>38</goals>
+	</statistics>
+</personal_info>
+
+
+<early_career>Born in Fuenlabrada, Community of Madrid,[4] Torres became interested in football as a child and joined his first team, Parque 84, at age five.[5] His grandfather was not a passionate football fan, but took pride in being an Atlético Madrid supporter, and Torres inherited his love for the club.[5]
+
+Torres began playing football as a goalkeeper, the position his brother played in.[6] At age seven, however, he started playing regularly as a striker in an indoor league for the neighbourhood club, Mario's Holland,[5] using the characters from the anime Captain Tsubasa as inspiration.[7] Three years later, aged 10, he progressed to an 11-side team, Rayo 13.[8] He scored 55 goals in a season and was one of three Rayo 13 players to earn a trial with Atlético.[8] He impressed the scouts and joined the club's youth system at age 11 in 1995.[8]
+</early_career>
+
+
+
+<club_career team = "Atletico Madrid ">
+	After progressing through the ranks, Torres won his first important youth title in 1998.[8] Atlético sent an under-15 team to compete in the Nike Cup, in Spain and Europe, to play against youth teams from other clubs; Atlético won the tournament.[8][9] He was later voted the best player in Europe for the age group.[9] In 1999, at the age of 15, Torres signed his first professional contract with Atlético.[8] He spent his first year playing in the youth team and participated in the Honor Division when he was 16.[10] The 2000–01 season had started poorly, as Torres suffered from a cracked shinbone which kept him out of play until December.[10] Torres trained with the first team to get prepared for pre-season, but eventually made his debut on 27 May 2001, at the Vicente Calderón Stadium, against Leganés.[10] One week later, he scored his first goal for the club, against Albacete, and the season finished with Atlético narrowly missing out on promotion to La Liga.[10]
+
+Atlético were promoted to La Liga at the end of the 2001–02 season, although Torres did not perform well in the season, as he netted only 6 times in 36 appearances in the Segunda División.[11] Torres' first season in La Liga, 2002–03, was better, however, as he scored 13 goals in 29 appearances, with Atlético finishing in 11th place.[10][11] In July 2003, soon after his takeover of the club, Chelsea owner Roman Abramovich had a £28 million bid for Torres rejected by Atlético's board of directors.[12] In the 2003–04 season, his second in La Liga, Torres made further strides, scoring 19 league goals in 35 appearances,[11] meaning he finished as the joint third-highest scorer in the league.[13] At age 19, Torres was named Atlético's captain.[9] Atlético narrowly missed out on qualification for the UEFA Cup, but by finishing in seventh place in the 2003–04 season, they qualified for the 2004 UEFA Intertoto Cup, giving Torres a first taste of a competition at the European level.[14] He scored two goals in the two fourth round matches against OFK Beograd, with one coming in each leg.[14] Atlético reached the final, but lost 3–1 on a penalty shoot-out to Villarreal following a 2–2 draw on aggregate.[14] FA Premier League champions Chelsea were believed to be interested in signing Torres during the summer of 2005, but Atlético club president Enrique Cerezo said that they had "no chance" of signing him.[15] Cerezo later said in January 2006 that the club was willing to listen to offers for Torres, and Torres claimed Newcastle United of the FA Premier League had made a bid to sign him in March.[16][17]
+
+
+Torres playing for Atlético Madrid in 2006
+Torres stated after the 2006 FIFA World Cup that he had turned down an offer to join Chelsea at the end of the 2005–06 season.[18] He scored 14 league goals in the 2006–07 season.[11] The English media reported that he was the main transfer target of FA Premier League club Liverpool,[19] but Cerezo stated, "We've received no offer from Liverpool or any other club or player."[20] Days later, however, new reports suggested Atlético had agreed a deal with Liverpool for Torres; the fee was rumoured to be £25 million with Luis García moving to Atlético in a separate transfer deal.[21] On 30 June, Atlético announced a deal to sign Diego Forlán from Villarreal, in what was seen as a move to replace Torres before his departure became official.[22] On 2 July, it was reported that Torres had cut short a vacation to fly back to Madrid to finalise the move to Liverpool.[23] The following day, Torres passed a medical at Liverpool's Melwood training ground.[24] He held a press conference in Madrid on 4 July to bid farewell to the Atlético fans, before completing his move to Liverpool on a six-year contract.[24] The transfer fee was the highest in Liverpool's history.[22] In March 2008, manager Rafael Benítez stated in an interview with The Times that Torres was acquired for around £20 million, although this figure takes into account García's move to Atlético.[25]
+</club_career>
+
+
+<club_career team = "Liverpool" season="2007-2008">
+Torres made his competitive debut for Liverpool against Aston Villa in a 2–1 win on 11 August 2007.[26] He made his first appearance in the UEFA Champions League four days past his first performance in a 1–0 victory over Toulouse, after coming on as a 79th minute substitute.[27] His first Premier League goal came on his Anfield debut on 19 August 2007, in the 16th minute in a 1–1 draw against Chelsea.[28] His first hat-trick came in a 4–2 victory over Reading in the League Cup on 25 September 2007, with all of his goals coming in the second half.[29] His first goals in the Champions League came on his third appearance in the competition as Liverpool beat Porto 4–1 on 28 November 2007, as he scored twice.[30]
+
+Torres was named the Premier League Player of the Month for February 2008,[31] during which he scored four goals in four appearances, including a hat-trick against Middlesbrough on 23 February 2008.[32] This hat-trick and another in a 4–0 victory over West Ham United on 5 March 2008 meant he became the first Liverpool player since Jack Balmer in November 1946 to score a hat-trick in successive home matches.[33] Later in March, after he scored a 47th-minute header against Reading at Anfield, he became the first Liverpool player since Robbie Fowler in the 1995–96 season to score 20 league goals in a season.[34] In April, he scored another Champions League goal, this time against Arsenal in the quarter-final second leg, as Liverpool advanced to the semi-final.[35] This goal took him onto 29 goals for the 2007–08 season in all competitions,[32] eclipsing Michael Owen's personal record for goals in a season.[36] On 11 April 2008, it was announced Torres had made a six-man shortlist for the PFA Players' Player of the Year award,[37] which was eventually won by Cristiano Ronaldo of Manchester United.[38] The Spanish international was also nominated for the PFA Young Player of the Year Award, which was won by Cesc Fàbregas of Arsenal and was named in the PFA Team of the Year.[38] In May, he finished second to Ronaldo for the FWA Footballer of the Year award.[39]
+
+On 4 May 2008, Torres scored a 57th-minute winner against Manchester City, which equalled the consecutive Anfield league goal record of eight games set by Roger Hunt.[32][40] After scoring his 24th league goal in the final game of the season, a 2–0 win against Tottenham Hotspur, he set a new record for the most prolific foreign goal scorer in a debut season in England, eclipsing Ruud van Nistelrooy's 23 goals.[32][41] He ended the season in joint second place with Emmanuel Adebayor in the race for the Premier League golden boot.[42] Torres was subject to media speculation that Chelsea were willing to pay £50 million to sign him, but Torres responded by saying it would be "many years" before he left Liverpool.[43][44] Liverpool co-owner Tom Hicks also negated the idea of a transfer, saying he would not allow Torres to leave the club at any price.[45]
+</club_career>
+
+<club_career team = "Liverpool" season="2008-2009">
+Torres made a scoring start to the 2008–09 Premier League season with a 25-yard shot into the bottom right-hand corner away at Sunderland, which was the only goal in a 1–0 win on 16 August 2008.[46] He suffered a hamstring tear in a 0–0 draw against Aston Villa, which would keep him out for two to three weeks.[47] Torres made his return in a 2–1 victory against Marseille in the Champions League and went on to score two goals in the Merseyside derby against Everton on 27 September 2008 to give Liverpool a 2–0 win.[48][49] He followed this up with another two goals the following weekend against Manchester City in a 3–2 win away at the City of Manchester Stadium as Liverpool came back from a two-goal deficit.[50] The first of these was the thousandth Liverpool goal to be scored in the Premier League.[51] Torres picked up a hamstring injury during a 2010 FIFA World Cup qualifier, meaning he was likely to miss three games for Liverpool.[52] On 22 October 2008, Liverpool played Torres' former club Atlético in the Champions League at the Vicente Calderón Stadium, but his injury meant he missed out on the game.[53] Atlético president Enrique Cerezo had given him a VIP invitation to watch the game, but he declined this to continue his rehabilitation from injury in Merseyside.[54] He was named in the FIFPro World XI team for the 2007–08 season on 27 October 2008.[55]
+
+Torres made his return for Liverpool on 8 November 2008 after coming on as a 72nd-minute substitute in a 3–0 victory against West Bromwich Albion.[56] He said he would be interested in returning to former club Atlético eventually, saying, "I don't know if I will retire there, but I would like to go back and finish some things that are left to do."[57] He was ruled out of action for two to three weeks following Liverpool's 1–0 victory over Marseille in the Champions League in November, where he picked up a hamstring strain,[58] which was later extended to at least four weeks by specialists.[59] He was named on the shortlist for the FIFA World Player of the Year award in December,[60] and eventually came in third place behind Ronaldo and Lionel Messi.[61] Torres returned to action on 3 January 2009 as a substitute with a goal in the 2–0 win over Preston North End, his first in the FA Cup.[62] He scored two late goals for Liverpool to secure a 2–0 victory over Chelsea on 1 February 2009.[63] Despite having spent a year and a half at the club, Torres was chosen as number 50 in The Times's list of "The 50 greatest Liverpool players", reinforcing the impact he had made at Liverpool in such a short period of time.[64]
+
+Torres faced his old rivals Real Madrid on 10 March 2009 in the Champions League last 16 and due to an ankle injury, he had a painkilling injection before the game to enable him to play.[65] He scored the first goal of the game, which ended as a 4–0 victory, meaning Liverpool progressed to the quarter-finals 5–0 on aggregate.[66] Four days later, he lined up against Manchester United at Old Trafford and he scored the equaliser in a game that finished as a 4–1 victory.[67] His goal celebration at Old Trafford endeared him to Liverpool fans when he held out his hand to United fans – making the "five times" gesture – signifying Liverpool's five Champions League titles (to United's three).[68] He was named in the PFA Team of the Year for the second season running in April 2009.[69] Torres scored his 50th goal for Liverpool on 24 May 2009 against Tottenham on the final day of the 2008–09 season, his 84th appearance.[70]
+</club_career>
+
+
+<club_career team = "Liverpool" season="2009-2010">
+Following the end of the season, Torres agreed a new contract with Liverpool,[71] which he signed on 14 August.[72] By signing, Torres had the option of a one-year extension after the contract's expiration in 2013.[73] Torres scored two goals in a 3–2 win over West Ham United on 19 September 2009, a result that took Liverpool to third in the Premier League.[74] One week later, he scored his first hat-trick of the 2009–10 Premier League season in a 6–1 victory over Hull City at Anfield.[75] He was named Premier League Player of the Month for September, after scoring five goals during the month and becoming the Premier League's top goalscorer.[76] On 25 October 2009, he scored the first goal in a 2–0 victory for Liverpool over Manchester United,[77] after which Rafael Benítez praised Torres' performance, saying, "We were waiting for that final pass. When it came we knew he would score."[78] Torres was named in the FIFPro World XI for the second successive season in December 2009.[79] His stoppage-time winning goal against Aston Villa on 29 December 2009 made him the fastest Liverpool player ever to score 50 league goals.[80] He was substituted on 65 minutes in a 1–1 draw with Birmingham City on 4 April 2010, which Benítez justified by saying Torres was "exhausted".[81] Torres made his last appearance of the season scoring twice in a 4–1 victory over Benfica in the Europa League on 8 April 2010,[82] and it was announced on 18 April that he would miss the rest of the season to undergo knee surgery.[83] This meant that Torres finished the season with 22 goals in 32 games in all competitions, finishing as Liverpool's top scorer for the second time.[82]
+</club_career>
+
+
+<club_career team = "Liverpool" season="2010-2011">
+Following Roy Hodgson's appointment as Liverpool manager, Hodgson stated that Torres would not be sold by the club, saying, "He is not for sale and we don't welcome any offers for him. We want to keep him."[84] Hodgson dismissed reports Torres was set to leave Liverpool by saying, "He has told us that he is looking forward to Monday, to getting back to work and looking forward to playing for Liverpool next season. That is what I know so other reports, I would suggest, are erroneous."[85] Torres stated his commitment to Liverpool on 3 August: "My commitment and loyalty to the club and to the fans is the same as it was on my first day when I signed."[86]
+</club_career>
+
+<club_career team = "Chelsea" season ="2011-2012">
+Torres playing for Chelsea in the 2012 UEFA Champions League Final
+Torres got the 2011–12 season underway in Chelsea's 0–0 draw away against Stoke City on 14 August 2011, in which his "link-up play was sharp, plus he was willing to make intelligent runs into space to receive the ball".[98] He scored his second goal at Chelsea, and his first of the season, on 18 September 2011, during an away game against Manchester United, the side's only goal in a 3–1 defeat.[99] He scored his second goal of the season at home to Swansea City in a 4–1 victory.[100] Ten minutes after his goal, however, a two-footed challenge on Mark Gower resulted in his first red card in English football and a three-match domestic suspension.[101][102] On 19 October 2011, Torres scored two goals in a 5–0 victory against Genk in the Champions League, his first in Europe since the quarter-final of the 2008–09 Champions League with his old club Liverpool, against Chelsea.[103] His next Chelsea goals came after scoring twice and also assisting two others against Championship team Leicester City in an FA Cup quarter-final on 18 March 2012, ending a goal drought that stretched 24 games.[104] On 31 March 2012, Torres scored his first Premier League goal since 24 September 2011, against Aston Villa in a 4–2 away win.[105]
+
+Torres came on as a substitute for Didier Drogba on 24 April 2012 to score a last-minute goal against Barcelona in the Champions League semi-final, which gave Chelsea a 2–2 draw, and also eliminated Barcelona from the tournament, as Chelsea won 3–2 on aggregate.[106] He scored the first hat-trick of his Chelsea career in a 6–1 win against Queens Park Rangers at Stamford Bridge on 29 April 2012.[107] Torres came on in the second half of the 2012 UEFA Champions League Final on 19 May 2012, directly after Bayern Munich's opening goal, and following a 1–1 draw after extra time Chelsea won the penalty shoot-out 4–3.[108] His first full season at Chelsea finished with 11 goals in 49 appearances.[105]
+</club_career>
+
+
+<club_career team = "Chelsea" season ="2011-2012">
+
+	Torres got the 2011–12 season underway in Chelsea's 0–0 draw away against Stoke City on 14 August 2011, in which his "link-up play was sharp, plus he was willing to make intelligent runs into space to receive the ball".[98] He scored his second goal at Chelsea, and his first of the season, on 18 September 2011, during an away game against Manchester United, the side's only goal in a 3–1 defeat.[99] He scored his second goal of the season at home to Swansea City in a 4–1 victory.[100] Ten minutes after his goal, however, a two-footed challenge on Mark Gower resulted in his first red card in English football and a three-match domestic suspension.[101][102] On 19 October 2011, Torres scored two goals in a 5–0 victory against Genk in the Champions League, his first in Europe since the quarter-final of the 2008–09 Champions League with his old club Liverpool, against Chelsea.[103] His next Chelsea goals came after scoring twice and also assisting two others against Championship team Leicester City in an FA Cup quarter-final on 18 March 2012, ending a goal drought that stretched 24 games.[104] On 31 March 2012, Torres scored his first Premier League goal since 24 September 2011, against Aston Villa in a 4–2 away win.[105]
+
+Torres came on as a substitute for Didier Drogba on 24 April 2012 to score a last-minute goal against Barcelona in the Champions League semi-final, which gave Chelsea a 2–2 draw, and also eliminated Barcelona from the tournament, as Chelsea won 3–2 on aggregate.[106] He scored the first hat-trick of his Chelsea career in a 6–1 win against Queens Park Rangers at Stamford Bridge on 29 April 2012.[107] Torres came on in the second half of the 2012 UEFA Champions League Final on 19 May 2012, directly after Bayern Munich's opening goal, and following a 1–1 draw after extra time Chelsea won the penalty shoot-out 4–3.[108] His first full season at Chelsea finished with 11 goals in 49 appearances.[105]
+</club_career>
+
+<club_career team = "Chelsea" season ="2012-2013">
+
+	Torres started the 2012–13 season in the 2012 FA Community Shield against Manchester City at Villa Park, where he scored the opening goal, as Chelsea lost 3–2.[109] On 19 August 2012, he appeared in Chelsea's first league match in a 2–0 away win against Wigan Athletic.[110] Torres scored his first goal of the season in Chelsea's next match on 22 August 2012, a 4–2 home win against Reading, scoring the third goal to give his side the lead.[111] He also scored against Newcastle United, Arsenal and Norwich City as Chelsea topped the table in the early weeks of the season.[112][113]
+
+Torres was sent off for receiving two yellow cards against Manchester United on 28 October 2012, the second for diving, leaving Chelsea with nine men after teammate Branislav Ivanović was also sent off; the team went on to lose 3–2.[114] Torres scored his first goal in the Champions League for the season after deflecting Shakhtar Donetsk goalkeeper Andriy Pyatov's clearance into goal, as Chelsea needed a 94th-minute winner from Victor Moses to secure a 3–2 victory on 7 November 2012.[115] On 21 November 2012, Roberto Di Matteo was replaced as Chelsea manager by Rafael Benítez, who had previously coached Torres at Liverpool.[116] It was reported that one reason for Benítez's appointment was to help Torres return to his best form.[117]
+
+
+Torres playing for Chelsea in 2013
+Torres ended a goal drought that stretched over 11 hours of game time with two goals in Chelsea's 6–1 defeat of Nordsjælland in the Champions League on 5 December 2012.[118] Three days later, he scored another two goals, ending a run of eight Premier League games without a goal, as Chelsea defeated Sunderland 3–1.[119] He then scored in Chelsea's 2012 FIFA Club World Cup semi-final 3–1 win against Monterrey of the Mexican Liga MX on 13 December 2012, before playing in the 1–0 defeat to Brazilian Série A side Corinthians in the final three days later.[112]
+
+On 14 March 2013, Torres scored the third goal as Chelsea defeated Steaua București 3–1 to advance 3–2 on aggregate to the quarter-final of the Europa League.[112] With this goal, Torres became the first player to score in seven different competitions in one season.[120] He scored twice against Rubin Kazan in the 3–1 win in the first leg of the Europa League quarter-final on 4 April 2013, before scoring again in the second leg 3–2 defeat, with Chelsea progressing to the semi-final 5–4 on aggregate.[112] Torres scored the opening goal in Chelsea's 2–1 triumph over Benfica in the 2013 UEFA Europa League Final on 15 May 2013.[112] During the final match of the season, a 2–1 home win over Everton, he scored his first league goal of 2013, and finished the season with 22 goals in 64 matches.[112][121]
+</club_career>
+
+<club_career team = "Chelsea" season ="2013-2014">
+	Torres was selected to start by Chelsea's new manager José Mourinho against Hull City on the opening day of the 2013–14 season, where he won a fifth-minute penalty kick.[122] He scored his first goal of the season in the 2013 UEFA Super Cup against Bayern Munich.[123] On 28 September 2013, he was sent off after receiving two yellow cards in Chelsea's 1–1 Premier League draw with Tottenham Hotspur at White Hart Lane.[124]
+
+Torres made his 100th start for Chelsea against Schalke 04 in a Champions League match on 22 October 2013 and marked the occasion by scoring two goals in a 3–0 win.[125][126] His first Premier League goal of the season came on 27 October as he scored the winning goal in the 90th minute over title challengers Manchester City, while also providing the assist for André Schürrle's opener.[127]
+</club_career>
+
+
+<club_career team = "AC Milan">
+	Torres joined Italian Serie A club A.C. Milan on a two-year loan on 31 August 2014.[128] He debuted on 20 September 2014, replacing Andrea Poli for the last 14 minutes of a 1–0 home defeat against Juventus[129] and scored his first Milan goal with a looping header in their 2–2 draw with Empoli two days later.[130]
+</club_career>
+
+<club_career team = "Atletico Madrid">
+On 27 December 2014, it was announced that Torres' move to Milan would be made permanent on 5 January 2015,[131] but two days later, he agreed to rejoin La Liga club Atlético Madrid on loan until the end of the 2015–16 season.[132] The loan was agreed after Alessio Cerci went the opposite way from Atlético to Milan on the same day, 5 January.[133] Torres' unveiling at the Vicente Calderón Stadium on 4 January 2015 drew a crowd of 45,000 persons.[134] He played the first match of his second spell on 7 January 2015, starting in the first leg of a Copa del Rey last 16 tie against Real Madrid. He had no shots on target and was replaced by Koke after 59 minutes, but Atlético won 2–0.[135] Eight days later in the second leg, he scored two goals – in the first minute of each half – as Atlético advanced, his first goals in an away Madrid derby.[136] Torres scored in the first minute again in the quarter-finals, albeit in a 2–3 home defeat against Barcelona.[137]
+
+
+Torres (centre) playing for Atlético Madrid in 2015
+On 17 March, Torres scored the winning kick in Atlético's 3–2 penalty shoot-out defeat of Bayer Leverkusen in the second leg of the teams' Champions League round of 16 tie.[138] On 21 March, he scored his first La Liga goal since his return in the third minute of a 2–0 win against Getafe.[139]
+
+After the departure of striker Mario Mandžukić, Torres changed his shirt number from 19 back to his usual 9, which he wore during the remainder of the 2015–16 season.[140]
+
+On 6 February 2016, Torres scored his 100th goal with Atlético Madrid in a 3–1 home league victory against Eibar on his 295th appearance for the club.[141] The following month, he marked the occasion of his 300th appearance for Atlético by scoring in a 3–1 victory over Valencia.[142]
+
+On 5 April 2016, Torres scored the opening goal of Atlético's UEFA Champions League quarter-final with Barcelona at Camp Nou, before being sent off ten minutes later in an eventual 2–1 loss.[143]
+
+On 5 July 2016, Torres signed for Atlético permanently on a one-year contract.[144] In February 2017, he scored his 100th league goal in Spanish football when he netted a brace against Leganés.[145] On 4 July 2017, Torres signed a new one-year contract with the rojiblancos to stay with his boyhood club for one more year after they were banned from signing new players.[146]
+
+Torres came on as a 90th-minute substitute on 16 May 2018 as Atlético beat Marseille 3–0 at Parc Olympique Lyonnais in the 2018 UEFA Europa League Final.[147] He scored two goals in his last match with Atlético in a 2–2 draw versus Eibar in the final week of championship.[148]
+</club_career>
+
+<club_career team = "Sagan Tosu">
+	Torres signed for J1 League club Sagan Tosu on 10 July 2018.[149] He scored his first goal for the club on 22 August in the Emperor's Cup, netting in a fourth round victory over Vissel Kobe.[150][151] His first league goal followed five days later when he scored once and assisted a further two in a 3–0 win over Gamba Osaka.[152] On 21 June 2019, Torres announced that he would retire from football.[153] He made his farewell in a J1 League match against Vissel Kobe on 23 August 2019, when he faced former Spain teammates Andrés Iniesta and David Villa.[154] The game ended in a 6–1 defeat for Sagan Tosu.[155]
+</club_career>
+
+
+<international_career>
+	2001–02: Success at youth level
+In February 2001, Torres won the Algarve Tournament with the Spain national under-16 team.[156] The under-16s took part in the 2001 UEFA European Under-16 Championship in May, which they also won, with Torres scoring the only goal in the final, as well as finishing as the tournament's leading scorer, and was also named the player of the tournament.[9][11] In September 2001, Torres represented the under-17 team at the 2001 FIFA U-17 World Championship, but the team failed to progress through the group stage.[11] In July 2002, he won the 2002 UEFA European Under-19 Championship with the under-19 team and was again the only goalscorer in the final.[9] Also, he finished as top scorer and was named player of the tournament.[11]
+
+2003–06: Senior debut and early years
+We complement each other very well. We get on well on the pitch and very well off it too. We're a good partnership. We both chase down defenders, put pressure on and fight to create chances for each other.
+
+— David Villa, speaking about Torres[157]
+Torres made his debut for the senior team on 6 September 2003 in a friendly against Portugal.[11] His first goal for Spain came against Italy on 28 April 2004.[11] He was selected for the Spanish squad for UEFA Euro 2004.[11] After appearing as a late substitute in Spain's first two group games, he started for the deciding game against Portugal.[11] Spain were losing 1–0 and, towards the end of the game, he hit the post.[11]
+
+
+Torres celebrating victory with Spain at UEFA Euro 2008
+Torres scored 7 goals in 11 appearances in qualifying for the 2006 FIFA World Cup,[158] making him Spain's top scorer for qualification, including a vital two goals against Belgium and his first international hat-trick against San Marino.[11] At his first ever appearance in a FIFA World Cup finals at the 2006 World Cup in Germany, Torres scored the final goal in a 4–0 victory over Ukraine with a volley.[159] In the second group match, Torres scored twice against Tunisia, first in the 76th minute to take Spain 2–1 into the lead, and then again from a penalty kick in the 90th.[160] With three goals, he finished the tournament as Spain's top scorer alongside fellow striker David Villa.[161]
+
+2007–08: European Champions
+Torres was called up for Spain's Euro 2008 squad,[162] where he set up Villa to score Spain's first goal of the tournament in the first game in the group stage against Russia.[163] Torres came under criticism for apparently refusing to shake the hand of Spanish manager Luis Aragonés after being substituted off.[164] He subsequently denied being angry with the coaching, saying that he was actually "irritated with himself".[164] He scored his first goal of the tournament in Spain's next game, a 2–1 win over Sweden.[165] Torres scored the winner and was named the man of the match in the final against Germany in a 1–0 victory.[166][167] He said, "It's just a dream come true. This is my first title and I hope it's the first of many. Victory in a Euro, it is almost as big as a World Cup. We are used to watching finals on television, but today we were here and we won. My job is to score goals. I want to win more titles and be the most important player in Europe and the world."[168] He was later named as a striker along with his striking partner David Villa in the Team of the Tournament.[169]
+
+2009–10: World Cup champions
+
+Torres celebrates with Spain at Plaza de España on 12 July 2010 after winning the 2010 FIFA World Cup
+Torres made his 60th appearance for Spain in a 2010 World Cup qualification victory over Turkey on 28 March 2009, becoming the youngest player to reach this milestone.[170]
+
+Torres was named in Spain's team for the 2009 FIFA Confederations Cup in June.[171] He scored his second hat-trick for Spain after 17 minutes into a Confederations Cup match against New Zealand on 14 June,[172] thus recording the fastest hat-trick by a player for Spain.[173] He played for Spain as they were defeated 2–0 by the United States in the semi-final,[174] as well as the third-place play-off, which Spain won 3–2 against South Africa after extra time.[175]
+
+Having undergone knee surgery on 18 April 2010, and missing the end of the Premier League season, Torres' rehabilitation and fitness was closely monitored by Spain manager Vicente del Bosque.[83] Although still out injured, Torres was selected for Spain's 2010 FIFA World Cup squad in May.[176] On 8 June, Torres made his first appearance on the field in exactly two months, coming on as a substitute on 66 minutes against Poland in a pre-World Cup friendly.[177]
+
+Torres came on as a substitute on 61 minutes in Spain's opening World Cup match on 16 June, a 1–0 defeat to Switzerland.[178] He started the next two matches against Honduras and Chile and although his performances in the group stage were described as below-par, he received backing from Del Bosque.[179] Torres came on as a substitute on 105 minutes in the final as Spain won the World Cup for the first time following a 1–0 victory over the Netherlands on 11 July 2010.[180]
+
+2011–12: Euro 2012 glory
+
+Torres (left) celebrating with Spain teammates Juan Mata and Sergio Ramos after winning UEFA Euro 2012
+Torres was selected in Del Bosque's Euro 2012 squad.[181] In his first start of the tournament, he netted two goals as Spain defeated the Republic of Ireland 4–0 to eliminate them from the tournament.[182] In the tournament final, Torres came on as a substitute against Italy, scoring one goal and assisting another, as Spain won a second consecutive European Championship with a 4–0 victory.[183] This secured him the Golden Boot for the tournament with three goals and one assist, having played fewer minutes than Mario Gómez, who also had three goals and one assist.[184]
+
+Torres won his 100th cap against Saudi Arabia on 7 September 2012, making him the sixth-highest capped player for Spain, and started the game as captain in goalkeeper Iker Casillas' absence.[185]
+
+2013–14: Confederations Cup top scorer and final World Cup
+He became the first player in history to score four goals in one game in a FIFA Confederations Cup match during a 10–0 win over Tahiti on 20 June 2013 in the 2013 Confederations Cup.[186] Torres also became the first player to score two hat-tricks in the Confederations Cup,[187] and with five goals and one assist won the tournament's Golden Shoe, ahead of Fred having played fewer minutes.[188]
+
+In his first international for 11 months, Torres scored a penalty in a World Cup warm-up match against Bolivia on 30 May 2014.[189] The day after, he was named in Spain's final squad for the tournament, ahead of Álvaro Negredo and Fernando Llorente.[190] After substitute appearances in the team's opening two matches, Torres was named in the starting line-up for the third group match with the team's elimination already confirmed.[191][192][193] He scored Spain's second goal in a 3–0 defeat of Australia in Curitiba.[193]
+
+</international_career>
+
+<style_of_play>
+	Torres has been described as having "an eye for the spectacular" and being "capable of world-class skill", as well as being regarded as a "technically proficient, highly successful striker".[194] He has the ability to find himself in goalscoring positions, using his pace and vision to get in behind defenders.[195] A hard-working striker, he is also known for his willingness to chase down and put pressure on opposing defenders, and is capable of playing off his teammates and creating chances for other strikers, in addition to scoring goals himself; this has also seen him be deployed in a deeper role as a second striker on occasion.[157][196][197][198][199] Being strong in the air, and an accurate finisher with his head as well as both feet, in his prime, his prolific goalscoring earned him a reputation as one of the top strikers in the world.[200][201][202] Prior to the 2009 Confederations Cup, the CBC described him as: "The golden boy of Spanish soccer and one of the most dangerous forwards in the game. Nicknamed El Nino (The Kid), Torres is coming off a solid second season for Liverpool in which he scored 14 goals. Torres is lightning quick, a deadly finisher and a player of such high class with the ball at his feet that he routinely makes the spectacular look ordinary."[203] However, several injuries led to a loss of form, pace, confidence and a decreased goalscoring rate in more recent seasons.
+</style_of_play>
+
+
+<personal_life>
+	Torres' parents are José Torres and Flori Sanz. He has two older siblings: Israel (born 1977) and María Paz (born 1976). He married Olalla Domínguez Liste on 27 May 2009 in a private ceremony with just two witnesses at the local town hall in El Escorial, Madrid.[207] The couple have two children, a daughter, Nora, born on 8 July 2009 at the Hospital La Rosaleda, in Santiago de Compostela, Galicia,[208] and a son, Leo, born on 6 December 2010 at Liverpool Women's Hospital, with Torres missing the fixture against Aston Villa at Anfield.[209]
+
+In 2009, it was reported that Torres had amassed a personal fortune of £14 million.[210] He features in the video for "Ya nada volverá a ser como antes" by Spanish pop rock group El Canto del Loco, whose singer, Dani Martín, shares a strong friendship with the footballer.[211] He makes a cameo appearance in the 2005 comedy film Torrente 3: El protector.[212] In 2009, he released an autobiography entitled Torres: El Niño: My Story.[213] Torres is a keen admirer of the works of J. R. R. Tolkien and has a tattoo reading "Fernando" in Tengwar on his left forearm.[214]
+
+In 2011, a stadium in Fuenlabrada was built in his honor.
+</personal_life>
+
+
+<!--Your comment     Not including all the table entries just doing it for few seasons and total apperance and total goals in that season as some of the data deosn't apply to all the players this is only for first 4 rows in the table -->
+<career_statistics>
+	<statistics>
+		<year>2000-2001</year><team>Atlético Madrid</team><apps>6</apps><goals>1</goals>
+	</statistics>
+	<statistics>
+		<year>2001-2002</year><team>Atlético Madrid</team><apps>37</apps><goals>7</goals>
+	</statistics>
+	<statistics>
+		<year>2002-2003</year><team>Atlético Madrid</team><apps>32</apps><goals>14</goals>
+	</statistics>
+	<statistics>
+		<year>2003-2004</year><team>Atlético Madrid</team><apps>40</apps><goals>21</goals>
+	</statistics>
+<!--Your comment some entries for the national team not all the entries -->
+	<statistics>
+		<year>2003</year><team>Spain</team><apps>3</apps><goals>0</goals>
+	</statistics>
+	<statistics>
+		<year>2004</year><team>Spain</team><apps>11</apps><goals>1</goals>
+	</statistics>
+</career_statistics>
+
+<honours>
+	<honour team='Atletico Madrid' awardtype = 'team' >
+		Segunda División: 2001–02[231]
+        UEFA Europa League: 2017–18[147]
+        UEFA Champions League runner-up: 2015–16[232]
+	</honour>
+	<honour team='Chelsea' awardtype = 'team' >
+		FA Cup: 2011–12[231]
+        UEFA Champions League: 2011–12[231]
+        UEFA Europa League: 2012–13[231]
+        FIFA Club World Cup runner-up: 2012[233]
+	</honour>
+	<honour team='Spain' awardtype = 'team' >
+		UEFA European Championship: 2008, 2012[231]
+		FIFA World Cup: 2010[231]
+		FIFA Confederations Cup runner-up: 2013;[231] third place: 2009
+	</honour>
+	<honour awardtype = 'individual' >
+		UEFA European Under-16 Championship Player of the Tournament: 2001[234]
+		UEFA European Under-16 Championship top scorer: 2001[235]
+		UEFA European Under-19 Championship Player of the Tournament: 2002[231]
+		UEFA European Under-19 Championship top scorer: 2002[236]
+		Liverpool Player of the Season Awards: 2007–08[237]
+		Premier League PFA Team of the Year: 2007–08, 2008–09[238]
+		Premier League Player of the Month: February 2008, September 2009[239]
+		BBC Goal of the Month: April 2009[240]
+		UEFA Euro 2008 Final: Man of the Match[241]
+		UEFA European Championship Team of the Tournament: 2008[235]
+		UEFA Team of the Year: 2008[235]
+		FIFA FIFPro World XI: 2008, 2009[242]
+		ESM Team of the Year: 2007–08[243]
+		FIFA World Player of the Year third place: 2008[244]
+		Ballon d'Or third place: 2008[245]
+		FIFA Confederations Cup Silver Shoe: 2009[246]
+		Marca Leyenda award: 2012[247]
+		UEFA European Championship Golden Boot: 2012[231]
+		FIFA Confederations Cup Golden Shoe: 2013[248]
+	</honour>
+	<honour awardtype = 'decorations'>
+		Prince of Asturias Award for Sports: 2010[231]
+        Gold Medal of the Royal Order of Sports Merit: 2011[249]
+	</honour>
+
+
+</honours>
+</root>
