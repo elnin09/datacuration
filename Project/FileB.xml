@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE consumerComplaints [
+<!ELEMENT consumerComplaints (complaint*)>
+<!ELEMENT complaint ((event*,product,issue,consumerNarrative?,company,response)|(company,event,issue,product,event,response))>
+<!ATTLIST complaint id CDATA #REQUIRED>
+<!ATTLIST complaint submissionType CDATA #IMPLIED>
+<!ELEMENT event (#PCDATA)>
+<!ELEMENT consumerNarrative (#PCDATA)>
+<!ATTLIST event type (received|sentToCompany) #REQUIRED>
+<!ATTLIST event date CDATA #REQUIRED>
+<!ELEMENT product (productType,subproduct?)>
+<!ELEMENT productType (#PCDATA)>
+<!ELEMENT subproduct (#PCDATA)>
+<!ELEMENT issue (issueType,subissue?)>
+<!ELEMENT subissue (#PCDATA)>
+<!ELEMENT issueType (#PCDATA)>
+<!ELEMENT company (companyName,companyState,companyZip)>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT companyState (#PCDATA)>
+<!ELEMENT companyZip (#PCDATA)>
+<!ELEMENT response (publicResponse?,responseType)>
+<!ELEMENT publicResponse (#PCDATA)>
+<!ATTLIST response timely (yes|no) #IMPLIED>
+<!ATTLIST response consumerDisputed (Y|N) #REQUIRED>
+<!ELEMENT responseType (#PCDATA)>
 <!ENTITY redaction "XXXX">
 ]>
 <consumerComplaints>
     <complaint id="759222" submissionType="Referral">
-        <event type="received" date="2017-03-12"/>  <event type="sentToCompany" date="2017-03-17"/><product><productType>Mortgage</productType><subproduct>Other mortgage</subproduct></product>
-        <issue><issueType>Loan modification,collection,foreclosure</issueType>  </issue><company><companyName>M&amp;T Bank Corporation</companyName><companyState>MI</companyState><companyZip>48382</companyZip></company>
-        <response timely="yes" consumerDisputed="Y"><responseType>Closed with explanation</responseType>  </response>
+        <event type="received" date="2017-03-12"/>  
+        <event type="sentToCompany" date="2017-03-17"/>
+        <product>
+         <productType>Mortgage</productType>
+         <subproduct>Other mortgage</subproduct>
+        </product>
+        <issue>
+         <issueType>Loan modification,collection,foreclosure</issueType>  
+        </issue>
+        <company>
+          <companyName>M&amp;T Bank Corporation</companyName>
+          <companyState>MI</companyState>
+          <companyZip>48382</companyZip>
+        </company>
+        <response timely="yes" consumerDisputed="Y">
+         <responseType>Closed with explanation</responseType>  
+        </response>
     </complaint>
+
     <complaint id="596562" submissionType="Phone">
         <event  date="2016-11-13" type="received" />
         <event type="sentToCompany" date="2016-11-20"/>
@@ -35,7 +73,6 @@
             years. Completely unfair and is why the big financials have the hated reputation they
             have now. Hope you folks over there can investigate.</consumerNarrative>
         <company><companyName>BARCLAYS BANK DELAWARE</companyName><companyState>MA</companyState><companyZip>19904</companyZip></company>
-        <submitted/>
         <response consumerDisputed="Y" timely="yes" ><publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse><responseType>Closed with explanation</responseType></response>
     </complaint>
     <complaint id="2327502" submissionType="Web">
