@@ -21,7 +21,7 @@
 <!ELEMENT companyZip (#PCDATA)>
 <!ELEMENT response (publicResponse?,responseType)>
 <!ELEMENT publicResponse (#PCDATA)>
-<!ATTLIST response timely (Y|N) #IMPLIED>
+<!ATTLIST response timely (Y|N) #REQUIRED>
 <!ATTLIST response consumerDisputed (Y|N) #REQUIRED>
 <!ELEMENT responseType (#PCDATA)>
 ]>
