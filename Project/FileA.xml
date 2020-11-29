@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE consumerComplaints [
+<!ELEMENT consumerComplaints (complaint*)>
+<!ELEMENT complaint ((event*,product,issue,consumerNarrative?,company,submitted,response)|(company,event,submitted,issue,product,event,response))>
+<!ATTLIST complaint id CDATA #REQUIRED>
+<!ELEMENT event (#PCDATA)>
+<!ELEMENT consumerNarrative (#PCDATA)>
+<!ATTLIST event type (received|sentToCompany) #REQUIRED>
+<!ATTLIST event date CDATA #REQUIRED>
+<!ELEMENT product (productType,subproduct?)>
+<!ELEMENT productType (#PCDATA)>
+<!ELEMENT subproduct (#PCDATA)>
+<!ELEMENT submitted (#PCDATA)>
+<!ATTLIST submitted via CDATA #REQUIRED>
+<!ELEMENT issue (issueType,subissue?)>
+<!ELEMENT subissue (#PCDATA)>
+<!ELEMENT issueType (#PCDATA)>
+<!ELEMENT company (companyName,companyState,companyZip)>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT companyState (#PCDATA)>
+<!ELEMENT companyZip (#PCDATA)>
+<!ELEMENT response (publicResponse?,responseType)>
+<!ELEMENT publicResponse (#PCDATA)>
+<!ATTLIST response timely (Y|N) #IMPLIED>
+<!ATTLIST response consumerDisputed (Y|N) #REQUIRED>
+<!ELEMENT responseType (#PCDATA)>
+]>
+
+
 
 <consumerComplaints>
     <complaint id="759222">
