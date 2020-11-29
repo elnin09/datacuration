@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <consumerComplaints>
-    <complaint id="759222">
+    <complaint id="759222" submissionType="Referral">
         <event type="received" date="2017-03-12"/>
         <event type="sentToCompany" date="2017-03-17"/>
         <product>
@@ -16,12 +16,11 @@
             <companyState>MI</companyState>
             <companyZip>48382</companyZip>
         </company>
-        <submitted via="Referral"/>
-        <response timely="Y" consumerDisputed="Y">
+        <response timely="yes" consumerDisputed="yes">
             <responseType>Closed with explanation</responseType>
         </response>
     </complaint>
-    <complaint id="596562">
+    <complaint id="596562" submissionType="Phone">
         <event type="received" date="2016-11-13"/>
         <event type="sentToCompany" date="2016-11-20"/>
         <product>
@@ -36,12 +35,11 @@
             <companyState>MN</companyState>
             <companyZip>48322</companyZip>
         </company>
-        <submitted via="Phone"/>
-        <response timely="Y" consumerDisputed="N">
+        <response timely="yes" consumerDisputed="no">
             <responseType>Closed with monetary relief</responseType>
         </response>
     </complaint>
-    <complaint id="2364257">
+    <complaint id="2364257" submissionType="Web">
         <event type="received" date="2019-02-28"/>
         <event type="sentToCompany" date="2019-02-28"/>
         <product>
@@ -64,18 +62,17 @@
             years. Completely unfair and is why the big financials have the hated reputation they
             have now. Hope you folks over there can investigate.</consumerNarrative>
         <company>
-            <companyName>BARCLAYS BANK DELAWARE</companyName>
+            <companyName>BARCLAYesS BANK DELAWARE</companyName>
             <companyState>MA</companyState>
             <companyZip>19904</companyZip>
         </company>
-        <submitted via="Web"/>
-        <response timely="Y" consumerDisputed="Y">
+        <response timely="yes" consumerDisputed="yes">
             <publicResponse>Company has responded to the consumer and the CFPB and chooses not to
                 provide a public response</publicResponse>
             <responseType>Closed with explanation</responseType>
         </response>
     </complaint>
-    <complaint id="2327502">
+    <complaint id="2327502" submissionType="Web">
         <event type="received" date="2019-02-03"/>
         <event type="sentToCompany" date="2019-02-03"/>
         <product>
@@ -98,14 +95,13 @@
             <companyState>NY</companyState>
             <companyZip>10020</companyZip>
         </company>
-        <submitted via="Web"/>
-        <response timely="Y" consumerDisputed="N">
+        <response timely="yes" consumerDisputed="no">
             <publicResponse>Company has responded to the consumer and the CFPB and chooses not to
                 provide a public response</publicResponse>
             <responseType>Closed with non-monetary relief</responseType>
         </response>
     </complaint>
-    <complaint id="2356421">
+    <complaint id="2356421" submissionType="Web">
         <event type="received" date="2018-02-23"/>
         <event type="sentToCompany" date="2018-02-23"/>
         <product>
@@ -139,14 +135,13 @@
             <companyState>AZ</companyState>
             <companyZip>85043</companyZip>
         </company>
-        <submitted via="Web"/>
-        <response timely="N" consumerDisputed="N">
+        <response timely="no" consumerDisputed="no">
             <publicResponse>Company has responded to the consumer and the CFPB and chooses not to
                 provide a public response</publicResponse>
             <responseType>Closed with explanation</responseType>
         </response>
     </complaint>
-    <complaint id="2112558">
+    <complaint id="2112558" submissionType="Web">
         <event type="received" date="2017-09-15"/>
         <event type="sentToCompany" date="2017-09-15"/>
         <product>
@@ -165,12 +160,11 @@
             <companyState>OK</companyState>
             <companyZip>73135</companyZip>
         </company>
-        <submitted via="Web"/>
-        <response timely="N" consumerDisputed="N">
+        <response timely="no" consumerDisputed="no">
             <responseType>Untimely response</responseType>
         </response>
     </complaint>
-    <complaint id="837784">
+    <complaint id="837784" submissionType="Web">
         <event type="received" date="2015-05-05"/>
         <event type="sentToCompany" date="2015-05-06"/>
         <product>
@@ -186,19 +180,17 @@
             <companyState>DE</companyState>
             <companyZip>19802</companyZip>
         </company>
-        <submitted via="Web"/>
-        <response timely="Y" consumerDisputed="N">
+        <response timely="yes" consumerDisputed="no">
             <responseType>Closed with monetary relief</responseType>
         </response>
     </complaint>
-    <complaint id="14038">
+    <complaint id="14038" submissionType="Referral">
         <company>
             <companyName>U.S. BANCORP</companyName>
             <companyState>AZ</companyState>
             <companyZip>85008</companyZip>
         </company>
         <event type="sentToCompany" date="2017-01-22"/>
-        <submitted via="Referral"/>
         <issue>
             <issueType>Loan servicing, payments, escrow account</issueType>
         </issue>
@@ -207,7 +199,7 @@
             <subproduct>Other mortgage</subproduct>
         </product>
         <event type="received" date="2017-01-17"/>
-        <response timely="Y" consumerDisputed="Y">
+        <response timely="yes" consumerDisputed="yes">
             <responseType>Closed without relief</responseType>
         </response>
     </complaint>
